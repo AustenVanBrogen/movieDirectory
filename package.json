@@ -1,0 +1,19 @@
+{
+  "name": "moviedirectory",
+  "version": "1.0.0",
+  "description": "This is a rest api for some movies I like",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustenVanBrogen/movieDirectory.git"
+  },
+  "author": "Austen Van Brogen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustenVanBrogen/movieDirectory/issues"
+  },
+  "homepage": "https://github.com/AustenVanBrogen/movieDirectory#readme"
+}
