@@ -1,25 +1,32 @@
-
 {
-    "movies": [
-        {
-            "title": "The Hitchhiker's Guide to the Galaxy",
-            "releaseDate": "29-04-2005",
-            "director": "Garth Jennings",
-            "producer": "Gary Barber, Roger Birnbaum, Jonathan Glickman, Nick Goldsmith, Jay Roach"
-        },
-
-        {
-            "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
-            "releaseDate": "09-08-2003",
-            "director": "Gore Verbinski",
-            "producer": "Jerry Bruckheimer" 
-        },
-
-        {
-            "title": "",
-            "releaseDate": "",
-            "director": "",
-            "producer": ""
-        }
-    ]
+  "movies": [
+    {
+      "id": 0,
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "releaseDate": "29-04-2005",
+      "director": "Garth Jennings",
+      "producer": "Gary Barber, Roger Birnbaum, Jonathan Glickman, Nick Goldsmith, Jay Roach"
+    },
+    {
+      "id": 1,
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "releaseDate": "09-08-2003",
+      "director": "Gore Verbinski",
+      "producer": "Jerry Bruckheimer"
+    },
+    {
+      "id": 2,
+      "title": "",
+      "releaseDate": "",
+      "director": "",
+      "producer": ""
+    },
+    {
+      "id": 3,
+      "title": "Star Wars: Episode IV - A New Hope",
+      "releaseDate": "25-05-1977",
+      "director": "25-05-1977",
+      "producer": "Gary Kurtz"
+    }
+  ]
 }
