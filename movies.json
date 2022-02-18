@@ -27,6 +27,13 @@
       "releaseDate": "25-05-1977",
       "director": "25-05-1977",
       "producer": "Gary Kurtz"
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter and the Chamber of Secrets",
+      "releaseDate": "15-11-2002",
+      "director": "Chris Columbus",
+      "producer": "David Heyman"
     }
   ]
 }

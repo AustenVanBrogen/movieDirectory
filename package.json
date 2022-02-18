@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AustenVanBrogen/movieDirectory#readme",
   "dependencies": {
+    "@joi/date": "^2.1.0",
     "express": "^4.17.2",
     "joi": "^17.6.0",
     "nodemon": "^2.0.15"

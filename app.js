@@ -1,7 +1,10 @@
-const Joi = require('joi');
+//const Joi = require('joi');
+const Joi = require('joi')
+    .extend(require('@joi/date'));
 const express = require('express');
 const fs = require('fs');
 const { title } = require('process');
+const { format } = require('path');
 const app = express();
 const port = 3000;
 
@@ -35,7 +38,7 @@ app.post('/api/movies', (req, res)=>{
             "id": movieDirectory.movies.length,
             "title": req.body.title,
             "releaseDate": req.body.releaseDate,
-            "director": req.body.releaseDate,
+            "director": req.body.director,
             "producer": req.body.producer
         };
         movieDirectory.movies.push(newMovie);
@@ -73,7 +76,7 @@ function validateMovie(course)
     //Invalid entry handling
     const schema = Joi.object({
         title: Joi.string().min(1).required(),
-        releaseDate: Joi.string().min(1).required(),
+        releaseDate: Joi.date().format("DD-MM-YYYY").raw().required(),
         director: Joi.string().min(1).required(),
         producer: Joi.string().min(1).required()
     });
